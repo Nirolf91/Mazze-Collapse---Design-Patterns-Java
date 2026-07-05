@@ -1,0 +1,19 @@
+# Java build output
+target/
+out/
+*.class
+
+# IDE metadata
+.idea/
+*.iml
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Local temporary files
+*.log
+*.tmp
+
+# Local reports and personal documents
+*.docx
