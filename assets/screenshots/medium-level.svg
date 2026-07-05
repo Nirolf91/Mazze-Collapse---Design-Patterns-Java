@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="420" viewBox="0 0 420 420" role="img" aria-label="Medium Maze Collapse level preview">
+  <rect width="420" height="420" fill="#f6f7f9"/>
+  <text x="24" y="34" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#23272f">Medium Level</text>
+  <g transform="translate(24 56)" stroke="#d7dce2" stroke-width="2">
+    <rect width="352" height="352" fill="#23272f"/>
+    <rect x="44" y="0" width="44" height="44" fill="#2f6fed"/><rect x="88" y="0" width="44" height="44" fill="#fff"/><rect x="132" y="0" width="44" height="44" fill="#fff"/><rect x="176" y="0" width="44" height="44" fill="#fff"/><rect x="220" y="0" width="44" height="44" fill="#fff"/>
+    <rect x="88" y="44" width="44" height="44" fill="#fff"/><rect x="132" y="44" width="44" height="44" fill="#fff"/><rect x="176" y="44" width="44" height="44" fill="#fff"/><rect x="220" y="44" width="44" height="44" fill="#fff"/>
+    <rect x="88" y="88" width="44" height="44" fill="#fff"/><rect x="132" y="88" width="44" height="44" fill="#fff"/><rect x="176" y="88" width="44" height="44" fill="#fff"/>
+    <rect x="44" y="132" width="44" height="44" fill="#fff"/><rect x="88" y="132" width="44" height="44" fill="#fff"/><rect x="132" y="132" width="44" height="44" fill="#fff"/><rect x="176" y="132" width="44" height="44" fill="#fff"/>
+    <rect x="44" y="176" width="44" height="44" fill="#fff"/><rect x="88" y="176" width="44" height="44" fill="#fff"/><rect x="132" y="176" width="44" height="44" fill="#fff"/><rect x="176" y="176" width="44" height="44" fill="#fff"/>
+    <rect x="132" y="220" width="44" height="44" fill="#fff"/><rect x="176" y="220" width="44" height="44" fill="#fff"/>
+    <rect x="88" y="264" width="44" height="44" fill="#fff"/><rect x="132" y="264" width="44" height="44" fill="#fff"/>
+    <rect x="88" y="308" width="44" height="44" fill="#fff"/><rect x="132" y="308" width="44" height="44" fill="#fff"/><rect x="176" y="308" width="44" height="44" fill="#fff"/><rect x="220" y="308" width="44" height="44" fill="#fff"/><rect x="264" y="308" width="44" height="44" fill="#fff"/><rect x="308" y="308" width="44" height="44" fill="#26a65b"/>
+  </g>
+  <text x="78" y="86" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#fff">P</text>
+  <text x="341" y="394" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#fff">F</text>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="460" viewBox="0 0 460 460" role="img" aria-label="Hard Maze Collapse level preview">
+  <rect width="460" height="460" fill="#f6f7f9"/>
+  <text x="24" y="34" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#23272f">Hard Level with Key and Lock</text>
+  <g transform="translate(24 56)" stroke="#d7dce2" stroke-width="2">
+    <rect width="380" height="380" fill="#23272f"/>
+    <rect x="38" y="38" width="38" height="38" fill="#2f6fed"/><rect x="76" y="38" width="38" height="38" fill="#fff"/><rect x="114" y="38" width="38" height="38" fill="#fff"/><rect x="152" y="38" width="38" height="38" fill="#fff"/><rect x="190" y="38" width="38" height="38" fill="#fff"/><rect x="228" y="38" width="38" height="38" fill="#fff"/><rect x="304" y="38" width="38" height="38" fill="#26a65b"/>
+    <rect x="38" y="76" width="38" height="38" fill="#fff"/><rect x="76" y="76" width="38" height="38" fill="#fff"/><rect x="114" y="76" width="38" height="38" fill="#fff"/><rect x="152" y="76" width="38" height="38" fill="#fff"/><rect x="190" y="76" width="38" height="38" fill="#fff"/><rect x="228" y="76" width="38" height="38" fill="#fff"/><rect x="304" y="76" width="38" height="38" fill="#fff"/>
+    <rect x="38" y="114" width="38" height="38" fill="#fff"/><rect x="190" y="114" width="38" height="38" fill="#fff"/><rect x="228" y="114" width="38" height="38" fill="#fff"/><rect x="266" y="114" width="38" height="38" fill="#cc4242"/><rect x="304" y="114" width="38" height="38" fill="#fff"/>
+    <rect x="38" y="152" width="38" height="38" fill="#fff"/><rect x="76" y="152" width="38" height="38" fill="#fff"/><rect x="114" y="152" width="38" height="38" fill="#f5b700"/><rect x="190" y="152" width="38" height="38" fill="#fff"/><rect x="228" y="152" width="38" height="38" fill="#fff"/><rect x="304" y="152" width="38" height="38" fill="#fff"/>
+    <rect x="38" y="190" width="38" height="38" fill="#fff"/><rect x="76" y="190" width="38" height="38" fill="#fff"/><rect x="114" y="190" width="38" height="38" fill="#fff"/><rect x="190" y="190" width="38" height="38" fill="#fff"/><rect x="228" y="190" width="38" height="38" fill="#fff"/><rect x="266" y="190" width="38" height="38" fill="#fff"/>
+    <rect x="114" y="228" width="38" height="38" fill="#fff"/><rect x="152" y="228" width="38" height="38" fill="#fff"/><rect x="190" y="228" width="38" height="38" fill="#fff"/>
+    <rect x="114" y="266" width="38" height="38" fill="#fff"/><rect x="152" y="266" width="38" height="38" fill="#fff"/><rect x="190" y="266" width="38" height="38" fill="#fff"/><rect x="228" y="266" width="38" height="38" fill="#fff"/><rect x="266" y="266" width="38" height="38" fill="#fff"/>
+    <rect x="114" y="304" width="38" height="38" fill="#fff"/><rect x="152" y="304" width="38" height="38" fill="#fff"/><rect x="190" y="304" width="38" height="38" fill="#fff"/><rect x="228" y="304" width="38" height="38" fill="#fff"/><rect x="266" y="304" width="38" height="38" fill="#fff"/>
+  </g>
+  <text x="72" y="119" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#fff">P</text>
+  <text x="337" y="119" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#fff">F</text>
+  <text x="148" y="195" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#fff">K</text>
+  <text x="300" y="157" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#fff">L</text>
+</svg>
