@@ -1,8 +1,8 @@
 # Maze Collapse - Design Patterns Java
 
-Maze Collapse is a small Java Swing puzzle game built to demonstrate clean object-oriented design and practical use of design patterns. The player must navigate a maze, avoid invalid moves, collect keys when required, unlock blocked paths, and reach the finish only after visiting all required cells.
+Maze Collapse is a Java Swing puzzle game built to demonstrate object-oriented design, clean architecture, and practical use of design patterns. The player navigates a maze, avoids invalid moves, collects keys when required, unlocks blocked paths, and reaches the finish only after visiting all required cells.
 
-The project was refactored to make the GitHub repository match the CV description: multiple design patterns are implemented intentionally, the game logic is separated from the UI, and the repository uses a standard Java structure.
+The project uses a standard Maven structure, separates game logic from the Swing UI, and includes JUnit 5 tests for the core gameplay rules. It demonstrates five design patterns: Singleton, Observer, Command, Decorator, and Prototype.
 
 ## Features
 
@@ -125,6 +125,16 @@ src/main/java/mazecollapse
 +-- singleton    # GameManager singleton
 +-- view         # Swing UI
 ```
+
+## Refactoring Highlights
+
+- Reorganized the project into a standard Maven structure.
+- Removed IDE files, compiled classes, and generated artifacts from version control.
+- Separated domain logic from the Swing user interface.
+- Replaced magic numbers with enums for cells, directions, and difficulty levels.
+- Replaced deprecated observer APIs with a custom observer interface.
+- Added JUnit 5 tests for movement, level completion, prototype cloning, game manager behavior, and key/lock mechanics.
+- Added GitHub-ready documentation and visual board previews.
 
 ## What I Learned
 
