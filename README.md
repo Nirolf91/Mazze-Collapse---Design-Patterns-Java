@@ -28,7 +28,22 @@ Representative board previews:
 
 ![Easy level](assets/screenshots/easy-level.svg)
 ![Medium level](assets/screenshots/medium-level.svg)
-![Hard level](assets/screenshots/hard-level.svg)
+![Hard level](assets/screenshots/hard-level.svg?v=hard-refined)
+
+Current Hard level layout:
+
+```text
+##########
+#P....####
+#####.#..#
+###...#..#
+###......#
+#####....#
+##....####
+##..#F...#
+###......#
+##########
+```
 
 ## How to Run
 
