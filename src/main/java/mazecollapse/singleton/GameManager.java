@@ -77,7 +77,7 @@ public final class GameManager {
             case HARD -> new KeyAndLockMazeDecorator(
                     new HardMazePrototype(),
                     new Position(3, 4),
-                    new Position(7, 3)
+                    new Position(7, 5)
             );
         };
     }
