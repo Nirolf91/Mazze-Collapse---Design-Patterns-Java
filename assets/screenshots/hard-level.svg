@@ -3,20 +3,20 @@
   <text x="24" y="34" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#23272f">Hard Level with Key and Lock</text>
   <g transform="translate(24 56)" stroke="#d7dce2" stroke-width="2">
     <rect width="380" height="380" fill="#23272f"/>
-    <rect x="38" y="38" width="304" height="304" fill="#fff"/>
-    <g fill="none" stroke="#d7dce2" stroke-width="2">
-      <path d="M76 38v304M114 38v304M152 38v304M190 38v304M228 38v304M266 38v304M304 38v304"/>
-      <path d="M38 76h304M38 114h304M38 152h304M38 190h304M38 228h304M38 266h304M38 304h304"/>
-    </g>
     <rect x="38" y="38" width="38" height="38" fill="#2f6fed"/>
-    <rect x="114" y="152" width="38" height="38" fill="#f5b700"/>
-    <rect x="266" y="190" width="38" height="38" fill="#cc4242"/>
+    <rect x="76" y="38" width="38" height="38" fill="#fff"/><rect x="114" y="38" width="38" height="38" fill="#fff"/><rect x="152" y="38" width="38" height="38" fill="#fff"/><rect x="190" y="38" width="38" height="38" fill="#fff"/><rect x="228" y="38" width="38" height="38" fill="#fff"/><rect x="266" y="38" width="38" height="38" fill="#fff"/><rect x="304" y="38" width="38" height="38" fill="#fff"/>
+    <rect x="304" y="76" width="38" height="38" fill="#fff"/>
+    <rect x="38" y="114" width="38" height="38" fill="#fff"/><rect x="76" y="114" width="38" height="38" fill="#fff"/><rect x="114" y="114" width="38" height="38" fill="#f5b700"/><rect x="152" y="114" width="38" height="38" fill="#fff"/><rect x="190" y="114" width="38" height="38" fill="#fff"/><rect x="228" y="114" width="38" height="38" fill="#fff"/><rect x="266" y="114" width="38" height="38" fill="#fff"/><rect x="304" y="114" width="38" height="38" fill="#fff"/>
+    <rect x="38" y="152" width="38" height="38" fill="#fff"/>
+    <rect x="38" y="190" width="38" height="38" fill="#fff"/><rect x="76" y="190" width="38" height="38" fill="#fff"/><rect x="114" y="190" width="38" height="38" fill="#fff"/><rect x="152" y="190" width="38" height="38" fill="#fff"/><rect x="190" y="190" width="38" height="38" fill="#fff"/><rect x="228" y="190" width="38" height="38" fill="#fff"/><rect x="266" y="190" width="38" height="38" fill="#fff"/><rect x="304" y="190" width="38" height="38" fill="#fff"/>
+    <rect x="304" y="228" width="38" height="38" fill="#cc4242"/>
+    <rect x="38" y="266" width="38" height="38" fill="#fff"/><rect x="76" y="266" width="38" height="38" fill="#fff"/><rect x="114" y="266" width="38" height="38" fill="#fff"/><rect x="152" y="266" width="38" height="38" fill="#fff"/><rect x="190" y="266" width="38" height="38" fill="#fff"/><rect x="228" y="266" width="38" height="38" fill="#fff"/><rect x="266" y="266" width="38" height="38" fill="#fff"/><rect x="304" y="266" width="38" height="38" fill="#fff"/>
     <rect x="38" y="304" width="38" height="38" fill="#26a65b"/>
   </g>
-  <path d="M81 113H347V151H81V189H347V227H81V265H347V303H81V341H347V379H81"
+  <path d="M81 113H347V189H81V265H347V341H81V379"
         fill="none" stroke="#4b5563" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" opacity="0.22"/>
   <text x="55" y="81" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#fff">P</text>
-  <text x="131" y="195" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#fff">K</text>
-  <text x="284" y="233" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#fff">L</text>
+  <text x="148" y="157" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#fff">K</text>
+  <text x="337" y="271" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#fff">L</text>
   <text x="55" y="347" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#fff">F</text>
 </svg>

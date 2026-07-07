@@ -7,13 +7,13 @@ public final class HardMazePrototype extends AbstractMazePrototype {
         super(Difficulty.HARD, new String[]{
                 "##########",
                 "#P.......#",
+                "########.#",
                 "#........#",
+                "#.########",
                 "#........#",
+                "########.#",
                 "#........#",
-                "#........#",
-                "#........#",
-                "#........#",
-                "#F.......#",
+                "#F########",
                 "##########"
         });
     }

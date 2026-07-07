@@ -17,8 +17,8 @@ class KeyAndLockDecoratorTest {
     void addsKeyAndLockToWrappedPrototype() {
         Maze maze = decoratedHardMaze().createMaze();
 
-        assertEquals(CellType.KEY, maze.cellAt(new Position(3, 4)), "Decorator should add a key.");
-        assertEquals(CellType.LOCK, maze.cellAt(new Position(7, 5)), "Decorator should add a lock.");
+        assertEquals(CellType.KEY, maze.cellAt(new Position(3, 3)), "Decorator should add a key.");
+        assertEquals(CellType.LOCK, maze.cellAt(new Position(8, 6)), "Decorator should add a lock.");
     }
 
     @Test
@@ -27,13 +27,10 @@ class KeyAndLockDecoratorTest {
 
         move(maze, Direction.RIGHT, 7);
         move(maze, Direction.DOWN, 1);
-        move(maze, Direction.LEFT, 7);
-        move(maze, Direction.DOWN, 1);
-        move(maze, Direction.RIGHT, 7);
         move(maze, Direction.DOWN, 1);
         move(maze, Direction.LEFT, 5);
 
-        assertEquals(CellType.PATH, maze.cellAt(new Position(7, 5)), "Collecting the key should unlock all locks.");
+        assertEquals(CellType.PATH, maze.cellAt(new Position(8, 6)), "Collecting the key should unlock all locks.");
     }
 
     @Test
@@ -41,20 +38,13 @@ class KeyAndLockDecoratorTest {
         Maze maze = decoratedHardMaze().createMaze();
 
         move(maze, Direction.RIGHT, 7);
-        move(maze, Direction.DOWN, 1);
+        move(maze, Direction.DOWN, 2);
         move(maze, Direction.LEFT, 7);
-        move(maze, Direction.DOWN, 1);
+        move(maze, Direction.DOWN, 2);
         move(maze, Direction.RIGHT, 7);
-        move(maze, Direction.DOWN, 1);
+        move(maze, Direction.DOWN, 2);
         move(maze, Direction.LEFT, 7);
         move(maze, Direction.DOWN, 1);
-        move(maze, Direction.RIGHT, 7);
-        move(maze, Direction.DOWN, 1);
-        move(maze, Direction.LEFT, 7);
-        move(maze, Direction.DOWN, 1);
-        move(maze, Direction.RIGHT, 7);
-        move(maze, Direction.DOWN, 1);
-        move(maze, Direction.LEFT, 7);
 
         assertTrue(maze.isLevelComplete(), "Hard level should be complete after the full snake route.");
     }
@@ -62,8 +52,8 @@ class KeyAndLockDecoratorTest {
     private static MazePrototype decoratedHardMaze() {
         return new KeyAndLockMazeDecorator(
                 new HardMazePrototype(),
-                new Position(3, 4),
-                new Position(7, 5)
+                new Position(3, 3),
+                new Position(8, 6)
         );
     }
 
